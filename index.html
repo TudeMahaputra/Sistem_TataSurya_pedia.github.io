@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tata Surya</title>
+    <link rel="stylesheet" href="style uts.css">
+    <style>
+        /* CSS styling bisa dimasukkan di sini */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;    
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        .center {
+            text-align: center;
+        }
+        .center img {
+            display: block;
+            margin: 0 auto;
+            width: 100%; /* agar gambar mengikuti lebar konten */
+            max-width: 800px; /* batasan lebar gambar */
+            height: auto; /* agar gambar tetap proporsional */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tata Surya: Pengertian dan Teori Para Ahli</h1>
+    </header>
+    <nav>
+        <a href="index.html">Tata Surya</a>
+        <a href="Matahari.html">Matahari</a>
+        <a href="Planet-planet.html">Planet-planet</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>    
+    <section>
+        <h2>Pengertian</h2>
+        <p>Tata Surya merupakan kumpulan benda langit yang terdiri atas Matahari dan semua objek yang berputar mengelilinginya, termasuk delapan buah planet yang sudah diketahui dengan orbit berbentuk elips, lima planet kerdil/katai, 173 satelit alami yang telah diidentifikasi, dan jutaan benda langit (<a href="https://id.wikipedia.org/wiki/Meteor" style="color: rgb(115, 255, 0);">meteor</a>, <a href="https://id.wikipedia.org/wiki/Asteroid" style="color: rgb(115, 255, 0);">asteroid</a>, <a href="https://id.wikipedia.org/wiki/Komet" style="color: rgb(115, 255, 0);">komet</a>) lainnya.</p>
+
+        <p>Semua objek ini berputar di sekitar matahari karena adanya gaya tarik gravitasi. Tata surya sebagai sistem antariksa yang saling terikat gravitasi dimana terdapat matahari dan benda-benda langit yang mengitarinya secara langsung maupun tidak langsung. Dari sekian banyak benda langit yang mengitari matahari secara langsung, terdapat benda langit yang paling besar yang dinamakan dengan planet.</p>
+    </section>
+    <div class="center">
+        <img src="https://dentmasoci.com/storage/2018/01/tata-surya-play.googlecom.jpg" alt="Gambar tata suya" width="800" height="400">
+    </div>
+    <section>
+        <h2>Teori Terbentuknya Tata Surya Menurut Para Ahli</h2>
+        <h1>1. Teori Planetesimal oleh Ahli Geologi Thomas C. Chamberlin (1843-1928) dan Astronom Forest R. Moulton (1872-1952)</h1>
+        <p>Menurut hasil penelitian para ahli ini tata surya terbentuk karena adanya benda langit lain yang lewat cukup dekat dengan matahari pada saat awal pembentukan matahari. Akibat dari kedekatan benda langit tersebut dengan matahari mengakibatkan adanya tonjolan pada permukaan matahari.</p>
+        <p>Dengan adanya bantuan bintang yang dekat dengan matahari akan memberikan efek gravitasi sehingga terbentuknya dua lengan spiral yang memanjang pada matahari.  Setelah itu sebagian besar materi akan tertarik kembali, dan sebagian benda langit lainnya akan tetap di orbit akan mendingin dan memadat dan akan menjadi benda-benda berukuran kecil yang disebut dengan planetisimal.</p>
+    </section>
+    <section>
+        <h1>2. Teori Awan Debu oleh Carl Von Weizsaeker (1940) dan Gerard P Kuiper (1950)</h1>
+        <p>Menurut hasil penelitian para ahli ini tata surya terbentuk dari gumpalan gas dan debu kemudian gumpalan awan mengalami penyumbatan dan pada proses penyumbatan tersebut partikel-partikel debu akan tertarik masuk ke bagian pusat awan membentuk gumpalan bola dan kemudian mulai terikat yang akan membentuk cakram yang tebal di bagian tengah dan bagian tepi nya yang tipis.</p>
+        <p>Lalu partikel-partikel di bagian tengah cakram akan saling menekan dan kemudian menimbulkan panas dan berpijar , dan bagian inilah yang akan menjadi matahari. Sementara itu bagian yang luar akan berputar sangat cepat sehingga akan terpecah-pecah membentuk gumpalan yang lebih kecil dan gumpalan kecil ini akan terikat dan kemudian membeku yang akan menjadi planet-planet.</p>
+    </section>
+    <section>
+    <p>untuk tau infomasi lebih lanjut"<span id="linkWord" style="color: rgb(115, 255, 0); cursor: pointer;">bisa klik disini</span>"</p>
+    </section>
+
+<script>
+    // Mendapatkan elemen kata yang akan dijadikan link
+    var linkWord = document.getElementById("linkWord");
+
+    // Menambahkan event listener untuk menangani klik pada kata
+    linkWord.addEventListener("click", function() {
+        // Menentukan link yang ingin dituju
+        var linkUrl = "https://informazone.com/asal-usul-tata-surya/"; // Ganti dengan URL yang diinginkan
+
+        // Mengarahkan ke link yang ditentukan saat kata diklik
+        window.location.href = linkUrl;
+    });
+</script>
+    <footer>
+        <p>Hak Cipta &copy; 2024 mahaputratude94@gmail.com.</p>
+    </footer>
+</body>
+<script>
+    // Mendapatkan semua tautan dalam navigasi
+    var navLinks = document.querySelectorAll("nav a");
+
+    // Menambahkan event listener untuk setiap tautan
+    navLinks.forEach(function(link) {
+        link.addEventListener("mouseenter", function() {
+            // Mengubah warna teks saat dihover
+            this.style.color = "#FFA500"; // Warna dapat disesuaikan
+            // Membuat tautan agak transparan saat dihover
+            this.style.opacity = "0.7"; // Opacity dapat disesuaikan
+            // Membuat tautan membesar saat dihover
+            this.style.transform = "scale(1.1)"; // Skala dapat disesuaikan
+        });
+
+        link.addEventListener("mouseleave", function() {
+            // Mengembalikan gaya awal saat tautan tidak dihover
+            this.style.color = "#fff";
+            this.style.opacity = "1";
+            this.style.transform = "scale(1)";
+        });
+    });
+</script>
+</html>

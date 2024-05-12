@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kontak Penulis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;    
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .profile-img {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-img img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .profile-img img:hover {
+            transform: scale(1.1);
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .social-links a img {
+            width: 40px; /* Ukuran baru untuk logo */
+            height: 40px; /* Ukuran baru untuk logo */
+            border-radius: 50%;
+            border: 2px solid #333;
+        }
+        .social-links a:hover img {
+            transform: scale(1.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Terima kasih Telah Membaca Semoga bisa Menambah Wawasan</h1>
+    </header>
+    <nav>
+        <a href="index.html">Tata Surya</a>
+        <a href="Matahari.html">Matahari</a>
+        <a href="Planet-planet.html">Planet-planet</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>    
+    <section>
+        <div class="center">
+            <img src="https://th.bing.com/th/id/OIP.X0Bqsl6JQsvg2mSFr9JrcQHaHa?w=200&h=200&c=7&r=0&o=5&pid=1.7" alt="Foto Profil" style="width: 200px; height: auto;">
+        </div>        
+        <h2>I Putu Gede Mahaputra Artha Guna</h2>
+        <p>contact me </p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/tude_mhptr/" target="_blank"><img src="https://th.bing.com/th/id/OIP.-ZirgQE5pr8e7htQWowJIgHaHa?rs=1&pid=ImgDetMain" alt="Instagram"></a>
+            <a href="https://www.facebook.com/tude.mahaputra.370" target="_blank"><img src="https://th.bing.com/th/id/R.9d13eaaf6566b8bdf715bd38c110aec0?rik=rY2INEiHKMVz2w&riu=http%3a%2f%2f3.bp.blogspot.com%2f-KNqO9JuXUN8%2fTi2b1LHRquI%2fAAAAAAAAAIU%2fL6k8Wlzxj9k%2fs1600%2flogo_facebook.png&ehk=ziMr2C3oUEw31MWuloKmoKqzMBzkqgUnFMR%2bsHqWeHM%3d&risl=&pid=ImgRaw&r=0" alt="Facebook"></a>
+            <a href="https://wa.me/62895413519020" target="_blank"><img src="https://logodownload.org/wp-content/uploads/2015/04/Whatsapp-logo-vetor.png" alt="WhatsApp"></a>
+        </div>
+    </section>
+    <footer>
+        <p>Hak Cipta &copy; 2024 mahaputratude94@gmail.com.</p>
+    </footer>
+</body>
+<script>
+    // Mendapatkan semua tautan dalam navigasi
+    var navLinks = document.querySelectorAll("nav a");
+
+    // Menambahkan event listener untuk setiap tautan
+    navLinks.forEach(function(link) {
+        link.addEventListener("mouseenter", function() {
+            // Mengubah warna teks saat dihover
+            this.style.color = "#FFA500"; // Warna dapat disesuaikan
+            // Membuat tautan agak transparan saat dihover
+            this.style.opacity = "0.7"; // Opacity dapat disesuaikan
+            // Membuat tautan membesar saat dihover
+            this.style.transform = "scale(1.1)"; // Skala dapat disesuaikan
+        });
+
+        link.addEventListener("mouseleave", function() {
+            // Mengembalikan gaya awal saat tautan tidak dihover
+            this.style.color = "#fff";
+            this.style.opacity = "1";
+            this.style.transform = "scale(1)";
+        });
+    });
+</script>
+</html>
